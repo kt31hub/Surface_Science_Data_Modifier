@@ -20,7 +20,7 @@ In Attenuated Total Reflection Infrared (ATR-IR) spectroscopy, the penetration d
 
 **Features:**
 - **GUI File Selection:** Easily select multiple raw spectra files (`.txt` or `.csv`) using a pop-up dialog.
-- **Batch Processing:** Processes multiple files at once and outputs them as standard `.csv` files with a `corrected_` prefix.
+- **Batch Processing:** Processes multiple files at once and outputs them as standard `.csv` files with a `corr_` prefix.
 - **Customizable:** Refractive indices (crystal and sample) and the incident angle can be easily adjusted within the script.
 
 **Usage:**
