@@ -1,4 +1,4 @@
-# Surface Chemistry Tools
+# Surface Chemistry Analysis Tools
 
 This repository is a collection of Python tools and scripts designed to streamline data processing and analysis for surface chemistry, spectroscopy, and chemical engineering research. 
 
@@ -9,14 +9,15 @@ More tools (e.g., for XPS or other surface analyses) will be added to this repos
 ```text
 surface-chemistry-tools/
 ├── FTIR-ATR/
-│   └── ATR_corr.py      # Penetration depth correction for ATR-IR spectra
+│   └── ATR_corr.py      # Penetration depth 
+├── XPS/
 └── (Future tools will be added here in separate folders)
 ```
 
 ## Available Tools
 
 ### 1. `FTIR-ATR/ATR_corr.py` (ATR-IR Penetration Depth Corrector) (2026 Jun)
-In Attenuated Total Reflection Infrared (ATR-IR) spectroscopy, the penetration depth of the evanescent wave is wavelength-dependent (penetrates deeper at lower wavenumbers). This script calculates the specific penetration depth for each wavenumber and corrects the absorbance, allowing for accurate quantitative analysis.
+In Attenuated Total Reflection Infrared (ATR-IR) spectroscopy, the penetration depth of the evanescent wave varies with wavelength (deeper penetration at lower wavenumbers). This script accounts for wavenumber-dependent penetration depth and applies absorbance correction to enhance the consistency and accuracy of quantitative analysis.
 
 **Features:**
 - **GUI File Selection:** Easily select multiple raw spectra files (`.txt` or `.csv`) using a pop-up dialog.
