@@ -1,8 +1,16 @@
 # Surface Chemistry Tools
 
-This repository is a collection of Python scripts and utility tools designed to streamline data processing and analysis for surface chemistry, spectroscopy, and chemical engineering research. 
+This repository is a collection of Python tools and scripts designed to streamline data processing and analysis for surface chemistry, spectroscopy, and chemical engineering research. 
 
-Currently, the repository contains a tool for ATR-IR spectra correction, with plans to add more analytical tools (e.g., for XPS or other surface treatment analyses) in the future.
+More tools (e.g., for XPS or other surface analyses) will be added to this repository in the future.
+
+## Directory Structure
+
+```text
+surface-chemistry-tools/
+├── FTIR-ATR/
+│   └── ATR_corr.py      # Penetration depth correction for ATR-IR spectra
+└── (Future tools will be added here in separate folders)
 
 ## Available Tools
 
